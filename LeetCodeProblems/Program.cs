@@ -6,7 +6,6 @@ namespace LeetCodeProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
         }
     }
 }
