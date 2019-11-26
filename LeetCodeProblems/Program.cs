@@ -6,6 +6,7 @@ namespace LeetCodeProblems
     {
         static void Main(string[] args)
         {
+            LeetCodeProblems.Easy.RomanInt.RomanInteger();
         }
     }
 }
