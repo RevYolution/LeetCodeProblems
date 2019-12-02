@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using LeetCodeProblems;
+
 
 namespace LeetTests
 {
@@ -8,8 +8,9 @@ namespace LeetTests
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void CanReverseInt()
         {
+            Reverse reverseTest = new Reverse();
         }
     }
 }
