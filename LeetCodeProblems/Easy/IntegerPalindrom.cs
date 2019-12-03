@@ -6,7 +6,7 @@ namespace LeetCodeProblems.Easy
 {
     //Determine whether an integer is a palindrome.An integer is a palindrome when it reads the same backward as forward.
     //-121=>false 10=>false
-    class IntegerPalindrom
+    public class IntegerPalindrom
     {
         public bool IsPalindrome(int x)
         {
