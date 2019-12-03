@@ -2,9 +2,9 @@
 
 namespace LeetCodeProblems
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             //LeetCodeProblems.Easy.RomanInt.RomanInteger();
             LeetCodeProblems.Easy.ValidParentheses.CheckParentheses();

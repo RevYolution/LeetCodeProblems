@@ -6,7 +6,7 @@ namespace LeetCodeProblems.Easy
 {
     //Given a 32-bit signed integer, reverse digits of an integer.
     //Need to write case for overflow exception with checked or comparison to int.MaxValue
-    class IntegerReverse
+    public class IntegerReverse
     {
         public int Reverse(int x)
         {
