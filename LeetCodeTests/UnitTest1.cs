@@ -1,6 +1,7 @@
 using System;
 using Xunit;
 using LeetCodeProblems.Easy;
+using LeetCodeProblems.Interview;
 
 namespace LeetCodeTests
 {
@@ -36,7 +37,16 @@ namespace LeetCodeTests
             Assert.Equal(expected, tested);
         }
 
-        //[Theory]
-        //[InlineData()]
+        [Theory]
+        [InlineData(new int[] { }, 0)]
+        [InlineData(new int[] { 1 }, 1)]
+        [InlineData(new int[] { 1, 2, 3 }, 1)]
+        [InlineData(new int[] {1,2,5,8,5,1,5}, 5)]
+        public void MostFrequentTest(int[] input, int expected)
+        {
+            HighestOccurance testNew = new HighestOccurance();
+            int tested = testNew.MostFrequent(input);
+            Assert.Equal(expected, tested);
+        }
     }
 }
