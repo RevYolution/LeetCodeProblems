@@ -36,7 +36,7 @@ namespace LeetCodeTests
             Assert.Equal(expected, tested);
         }
 
-        [Theory]
-        [InlineData()]
+        //[Theory]
+        //[InlineData()]
     }
 }

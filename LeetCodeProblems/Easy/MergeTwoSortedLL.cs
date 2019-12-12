@@ -22,13 +22,13 @@ namespace LeetCodeProblems.Easy
     }
     public class MergeTwoSortedLL
     {
-        public ListNode MergeLists(ListNode l1, ListNode l2)
-        {
-            ListNode holder = new ListNode();
-            while (l1.next != null && l2.next != null)
-            {
-            }
+        //public ListNode MergeLists(ListNode l1, ListNode l2)
+        //{
+        //    ListNode holder = new ListNode();
+        //    while (l1.next != null && l2.next != null)
+        //    {
+        //    }
             
-        }
+        //}
     }
 }
