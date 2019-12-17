@@ -80,5 +80,14 @@ namespace LeetCodeTests
             Assert.Equal(expected, tested);
         }
 
+        [Theory]
+        [InlineData(new int[] { 2, 2, 1 }, 1)]
+        [InlineData(new int[] { 4, 1, 2, 1, 2 }, 4)]
+        public void CanFindSingle(int[] input, int expected)
+        {
+            FindSingleInt testSingle = new FindSingleInt();
+            int tested = testSingle.SingleNumber(input);
+            Assert.Equal(expected, tested);
+        }
     }
 }
